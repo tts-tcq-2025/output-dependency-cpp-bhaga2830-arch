@@ -7,7 +7,7 @@ int printColorMap() {
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) {
         for(j = 0; j < 5; j++) {
-            std::cout << i * 5 + j << " | " << majorColor[i] << " | " << minorColor[j] << "\n";
+            std::cout << i * 5 + j+1 << " | " << majorColor[i] << " | " << minorColor[j] << "\n";
         }
     }
     return i * j;
